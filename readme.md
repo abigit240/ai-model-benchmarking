@@ -2,9 +2,9 @@
 
 
 ## 📋 System Information
-- **OS:** Windows 11 Home / PowerShell 5.1  
+- **OS:** Windows 11 Home / PowerShell included ver 
 - **GPU:** NVIDIA RTX 4050 Laptop GPU (6GB VRAM)  
-- **Driver:** NVIDIA 580.xx  
+- **Driver:** NVIDIA studio 580.xx  
 - **Python:** 3.10 (Anaconda Base)  
 - **Ollama Version:** Latest (as of Aug 2025)  
 - **Benchmark Scripts:** Custom PowerShell + Python (`ollama_bench.ps1`, `repeat_bench.ps1`, `first_token_latency.py`, `generate_report.py`)
@@ -48,10 +48,10 @@ Measured separately with:
 ```bash
 python first_token_latency.py llama3
 python first_token_latency.py gpt-oss:20b
-
+```
 ### Report Generation
-
 Aggregated results and plots generated using:
 
 ```bash
 python generate_report.py
+```
