@@ -1,5 +1,6 @@
 # 🧪 # AI Model Benchmark: Meta LLaMA 3 8B Instruct (Ollama build) vs OpenAI gpt-oss-20B
-
+## 📋 Description
+- **The project involved downloading and running open-source and open-weight AI models, running them on a local consumer hardware machine, testing / comparing performance of a slightly heavier and a lighter AI model. Running gpt-oss-20B on moderate consumer hardware is quite a challenge. Testing and benchmarking was done using CLI instructions. The work has application in future exploration of local AI model deployement and efficient utilization in air gaped system development**
 
 ## 📋 System Information
 - **OS:** Windows 11 Home / PowerShell included ver 
